@@ -2,16 +2,21 @@
 <html style="background:LemonChiffon">
 <head>
 	<meta charset = "utf-8" ></meta>
+	
 	<title>曹營大哉問</title>
 	<style type="text/css">
 		.bigtitle{
 			color:#00bfff; font-size:80px;
 			position:absolute;left:21%;top:12%;
 		}
-		.img
+		#img
 		{
 			position:relative;left:20%;top:50%;
 			width:55%;height:55%;
+		}
+		#img2
+		{
+			position:absolute;left:62%;top:3%;
 		}
 		h1{
 			position:relative;left:8%;top:60%;
@@ -19,14 +24,29 @@
 		h3{
 			position:relative;left:8%;top:60%;
 		}
+		@media screen and (max-width:1200px){
+			.bigtitle{
+				color:#00bfff; font-size:80px;
+				position:absolute;left:21%;top:8%;
+				width:90%;height:90%;
+			}
+			#img{
+				position:relative;left:20%;top:50%;
+				width:70%;height:70%;
+			}
+			#img2
+			{
+				 position:absolute;left:88%;top:3%;
+			}
+		}
 	</style>
-	<script type="text/javascript">
-	
+	<script type="text/javascript">	
 	</script>
+	
 </head>
 <body>
-	<img src ="images/background1.png" class="img"></img>
-	<img src="images/test1.png" style="position:absolute;left:62%;top:3%"></img>
+	<img src ="images/background1.png" id ="img"></img>
+	<img src="images/test1.png" id ="img2"></img>
 	<div class="bigtitle">曹營大哉問 題庫區</div>
 	<div>
 		<h1>夏侯惇：</h1>
